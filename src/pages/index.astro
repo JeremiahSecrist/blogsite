@@ -24,31 +24,69 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
+    callToAction={{ text: 'Resume', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }} 
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+      Forward thinking with a  
+      <span class="text-accent highlight"> Passion</span> for understanding 
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+      To ask the right questions is the greatest challange all to itself. 
+      Constantly in life we try to fix problems that we encounter every day.
+      Yet rarely do we check to see if it is the right problem we should be solving. 
     </Fragment>
   </Hero>
+
+  <FAQs
+    title="Things to know about me"
+    subtitle="I am of the idea that being as plain and transparent as possible leads to a better understanding. To better support that i've laid out common questions that illustrate the way that I think."
+    highlight=""
+    items={[
+      [
+        {
+          question: 'What sets you apart from others?',
+          answer:
+            'In short, nothing. I aspire to the idea that nothing I do is special. More so that you can do anything that I am doing or have done. ',
+        },
+        {
+          question: 'What is your favorite things to do?',
+          answer:
+            "As of late my favorite thing to do is to go for a bike ride while listening to music. It allows for me to clear my head with a fresh perspective.",
+        },
+        {
+          question: "What is something that baffles you?",
+          answer:
+            "The idea that one should disreguard an idea solely based on who where it was said. The merit of a statement should withstant irrelevant to who said it. However context is of great importance to apply a statment.",
+        },
+      ],
+      [
+        {
+          question: "Where would you like to live?",
+          answer:
+            "I can't say with certainty as I have yet to travel the world. However The netherlands feels very apealing as of late. I have learned a lot about their city infrastructure and find a humand centric design to be amazing.",
+        },
+        {
+          question: 'What is your main goal in life?',
+          answer:
+            "One of the things I aspire to acheive one day is full independence. Idealy my house would not require city power but would have it as a backup. Additionaly I would also like to have my own aquaponics to get my own food. The ideal is to minimize reliance on others.",
+        },
+        {
+          question: 'If you could only ask one question to each person you meet, what would that question be?',
+          answer:
+            "If you could only do one thing what would it be? One passion project what would it be? one pass time, what would you do?",
+        },
+      ],
+    ]}
+  />
 
   <!-- Note Widget ******************* -->
 
   <Note />
 
   <!-- Features Widget *************** -->
-
+<!--
   <Features
     highlight="Features"
     title="What you get with AstroWind"
@@ -96,9 +134,9 @@ const meta = {
       ],
     ]}
   />
-
+-->
   <!-- Content Widget **************** -->
-
+<!--
   <Content
     highlight="Inside template"
     title="And what's inside? ..."
@@ -130,9 +168,9 @@ const meta = {
       tacimates.
     </Fragment>
   </Content>
-
+-->
   <!-- Content Widget **************** -->
-
+<!--
   <Content
     isReversed
     isAfterContent
@@ -161,9 +199,9 @@ const meta = {
       alt: 'Vintage Image',
     }}
   />
-
+-->
   <!-- Steps Widget ****************** -->
-
+<!--
   <Steps
     title="Get your dream website up and running in no time with AstroWind."
     items={[
@@ -195,9 +233,9 @@ const meta = {
       alt: 'Steps image',
     }}
   />
-
+-->
   <!-- Features2 Widget ************** -->
-
+<!--
   <Features2
     title="Most used widgets"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
@@ -259,7 +297,7 @@ const meta = {
       },
     ]}
   />
-
+-->
   <!-- HighlightedPosts Widget ******* -->
 
   <LatestPosts
@@ -277,9 +315,9 @@ const meta = {
   />
 
   <!-- FAQs Widget ******************* -->
-
+<!--
   <FAQs
-    title="Frequently Asked Questions"
+    title="Things to know about me"
     subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
     highlight="FAQs"
     items={[
@@ -319,8 +357,8 @@ const meta = {
       ],
     ]}
   />
-
-  <!-- Stats Widget ****************** -->
+-->
+  <!-- Stats Widget ****************** 
 
   <Stats
     items={[
@@ -330,10 +368,10 @@ const meta = {
       { name: 'Users', value: '48.4K' },
     ]}
   />
+-->
+  <!-- CallToAction Widget *********** 
 
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
+<CallToAction
     callToAction={{
       text: 'Get template',
       href: 'https://github.com/onwidget/astrowind',
@@ -349,4 +387,5 @@ const meta = {
       waste more time! :P
     </Fragment>
   </CallToAction>
+-->
 </Layout>
