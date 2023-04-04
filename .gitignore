@@ -23,3 +23,9 @@ package-lock.json
 pnpm-lock.yaml
 
 .astro
+.direnv/flake-profile-1-link
+.direnv/flake-profile-2-link
+.direnv/flake-profile-3-link
+.direnv/flake-profile-4-link
+.direnv/flake-profile-5-link
+.direnv/flake-profile
