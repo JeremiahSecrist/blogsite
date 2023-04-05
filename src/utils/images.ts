@@ -18,15 +18,22 @@ export const fetchLocalImages = async () => {
 
 /** */
 export const findImage = async (imagePath?: string) => {
+  console.log("file tested:" + imagePath);  
   if (typeof imagePath !== 'string') {
     return null;
   }
-
-  if (imagePath.startsWith('http://') || imagePath.startsWith('https://') ){ //|| imagePath.startsWith('/')) {
+  
+  if (imagePath.startsWith('/src')){
+    const images = await fetchLocalImages();
+    const key = imagePath;
+    return typeof images[key] === 'function' ? (await images[key]())['default'] : null;    
+  }
+  
+  if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('/')) {
     return imagePath;
   }
 
-   if (!imagePath.startsWith('~/assets') || !imagePath.startsWith('/src')) {
+   if (!imagePath.startsWith('~/assets')) {
      return null;
    } // For now only consume images using ~/assets alias (or absolute)
 
