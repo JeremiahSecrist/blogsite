@@ -2,7 +2,7 @@
 publishDate: 2023-01-06T00:00:00Z
 title: How to customize AstroWind template to suit your branding
 excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
-image: ~/assets/images/colors.jpg
+image: /src/assets/images/colors.jpg
 tags:
   - astro
   - tailwind css
