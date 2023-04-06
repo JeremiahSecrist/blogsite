@@ -16,9 +16,10 @@ layout {
                         // args "dry-activate" "--flake" ".#"  
                         // start_suspended true
                     }
-                   // nix { 
-                        // args "test"; 
-                    // }
+                   pane { 
+                        name "CLI2"
+                        cwd "./" 
+                    }
                 }
             }
         }     

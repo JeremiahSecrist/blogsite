@@ -14,8 +14,7 @@
           dconf dump / | dconf2nix > dconf.nix
         '';
         editor = pkgs.writeScriptBin "editor" ''
-          #!/usr/bin/env zsh
-          zellij -l ./default.nix
+          zellij --config-dir .config/zellij
         '';
         };
     };
