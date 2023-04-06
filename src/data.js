@@ -50,11 +50,11 @@ export const headerData = {
     // },
     {
       text: 'About me',
-      href: "#",
+      href: "/aboutme",
     },
     {
       text: 'Resume',
-      href: "#",
+      href: "/resume",
     },
     {
       text: 'Blog',
