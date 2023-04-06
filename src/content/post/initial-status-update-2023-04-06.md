@@ -14,7 +14,9 @@ In an effort to practice what I preach, I've been applying this principle to my 
 
 Despite my best efforts to improve myself, I recognize that I'm at risk of failing in these early stages if I don't hold myself accountable. That's where this blog comes in - it's a way for me to stay on track and hold myself to the standards I've set for myself. At the end of the day, it's up to me and me alone to keep myself in check as time goes on.
 
-F﻿or anyone reading this post I would like to recomend three books that may aid in the way you think about the world. These books have certainly been helping me, and I am still in the progress of finishing them. 
+For anyone reading this post I would like to recommend two books that may aid in the way you think about the world. These books have certainly been helping me, and I am still in the progress of finishing them. 
 
-1. [﻿﻿Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X)  This book covers common tactics that help solidify your learning experience. One can not change what they do not know.
-2. [﻿How Learning Works: Seven Research-Based Principles for Smart Teaching](https://www.amazon.com/How-Learning-Works-Research-Based-Principles/dp/0470484101)
+1. [﻿﻿Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X)  \
+   This book covers common tactics that help solidify your learning experience. One can not change what they do not know.
+2. [﻿How Learning Works: Seven Research-Based Principles for Smart Teaching](https://www.amazon.com/How-Learning-Works-Research-Based-Principles/dp/0470484101)\
+   This book covers many similar ideas but views them from the lens of a professor. I find it a great addendum to the first.
