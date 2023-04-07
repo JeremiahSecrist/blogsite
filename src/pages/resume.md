@@ -1,5 +1,5 @@
 ---
-title: 'Resume'
+title: 'Jeremiah D Secrist'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
@@ -42,5 +42,9 @@ Collecting and aggregating user data for targeting specific information bottlene
  - Leveraged GitHub Actions to trigger config updates of nodes on TailScale
  - Familiarity with HashiCorp's Terraform and Vault
  - Experience with Docker and alternative containerization suites
+
+## Contact Info
+
+Email: jeremiah#secrist.xyz
 
 [Download Resume](https://jeremiah.secrist.xyz/Jeremiah_Secrist_Resume.pdf)
