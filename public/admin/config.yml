@@ -3,30 +3,29 @@ backend:
   repo: arouzing/blogsite
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "/src/assets/images"
+media_folder: '/src/assets/images'
 publish_mode: editorial_workflow
 
 collections:
+  - name: 'blog' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog' # Used in the UI
+    folder: '/src/content/post' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Featured Image', name: 'image', widget: 'image' }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: ['Tech'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
- - name: "blog" # Used in routes, e.g., /admin/collections/blog
-   label: "Blog" # Used in the UI
-   folder: "/src/content/post" # The path to the folder where the documents are stored
-   create: true # Allow users to create new documents in this collection
-   slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
-   fields: # The fields for each document, usually in front matter
-     - {label: "Publish Date", name: "publishDate", widget: "datetime"}
-     - {label: "Title", name: "title", widget: "string"}
-     - {label: "Excerpt", name: "excerpt", widget: "string"}
-     - {label: "Featured Image", name: "image", widget: "image"}
-     - {label: "Tags", name: "tags", widget: "list", default: ["Tech"]}
-     - {label: "Body", name: "body", widget: "markdown"}
-
- - name: "main" # Used in routes, e.g., /admin/collections/blog
-   label: "main" # Used in the UI
-   folder: "/src/pages" # The path to the folder where the documents are stored
-   create: true # Allow users to create new documents in this collection
-   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-   fields: # The fields for each document, usually in front matter
-     - {label: "Title", name: "title", widget: "string"}
-     - {label: "Layout", name: "layout", widget: "Select", options: [ "~/layouts/MarkdownLayout.astro" ]}
-     - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'main' # Used in routes, e.g., /admin/collections/blog
+    label: 'main' # Used in the UI
+    folder: '/src/pages' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'Select', options: ['~/layouts/MarkdownLayout.astro'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

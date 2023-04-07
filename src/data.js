@@ -50,11 +50,11 @@ export const headerData = {
     // },
     {
       text: 'About me',
-      href: "/aboutme",
+      href: '/aboutme',
     },
     {
       text: 'Resume',
-      href: "/resume",
+      href: '/resume',
     },
     {
       text: 'Blog',
@@ -65,11 +65,9 @@ export const headerData = {
   //   { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
   // ],
 };
-  
+
 export const footerData = {
-  links: [
-    
-  ],
+  links: [],
   secondaryLinks: [
     // { text: 'Terms', href: getPermalink('/terms') },
     // { text: 'Privacy Policy', href: getPermalink('/privacy') },
