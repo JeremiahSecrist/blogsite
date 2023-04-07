@@ -8,8 +8,7 @@ const CONFIG = {
   trailingSlash: false,
 
   title: 'Systems Architect / DevOps engineer',
-  description:
-    'Personal resume, blog, and catalog of projects I am working on.',
+  description: 'Personal resume, blog, and catalog of projects I am working on.',
   defaultImage: defaultImage,
 
   defaultTheme: 'dark', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
