@@ -2,6 +2,13 @@ default_shell "zsh"
 
 copy_command "wl-copy"
 
+keybinds {
+  normal {
+    bind "Alt ," { GoToPreviousTab; }
+    bind "Alt ." { GoToNextTab; }
+  }
+}
+
 theme "dracula"
 themes {
    dracula {
