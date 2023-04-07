@@ -5,6 +5,8 @@ mkShell {
     nixpkgs-fmt
     wl-clipboard
     gitui
+    pandoc
+    texlive.combined.scheme-small
     helix
     broot
     zsh

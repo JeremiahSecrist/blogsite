@@ -16,6 +16,9 @@
         editor = pkgs.writeScriptBin "editor" ''
           zellij --config-dir .config/zellij
         '';
+        xprtrsm = pkgs.writeScriptBin "xprtrsm" ''
+          pandoc ./src/pages/resume.md -o ./public/Jeremiah_Secrist_Resume.pdf
+        '';        
         };
     };
 }
