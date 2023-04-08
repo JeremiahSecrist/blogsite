@@ -4,9 +4,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 geometry: 'left=3cm,right=3cm,top=1cm,bottom=2cm'
 ---
 ## Education
-### Graphic Design Production
+### Technical Certificate in Graphic Design Production
 
- - Technical Certificate at Florida State College at Jacksonville
+ - Florida State College at Jacksonville
  - 4.0 GPA
  - 2019 
 
@@ -19,7 +19,7 @@ geometry: 'left=3cm,right=3cm,top=1cm,bottom=2cm'
 ### Associates  Science in Computer Information Technology
 
  - Florida State College at Jacksonville
- - GPA 3.98 
+ - 3.98 GPA 
  - 2023 
  
 ---
