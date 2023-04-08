@@ -6,7 +6,7 @@ geometry: 'left=3cm,right=3cm,top=1cm,bottom=2cm'
 ## Education
 ### Graphic Design Production
 
- - Florida State College at Jacksonville
+ - Technical Certificate at Florida State College at Jacksonville
  - 4.0 GPA
  - 2019 
 
